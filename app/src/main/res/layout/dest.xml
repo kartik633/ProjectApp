@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/myimage5"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/sacramento"
+        android:text="Order Details"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="No of Products"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvQui"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="5"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="36dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Price"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPri"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="180dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="7382"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="36dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etCoupon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/actor"
+        android:hint="Enter Coupon Code"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCheckCoupon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/buttonfile"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/abril_fatface"
+        android:text="check"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnProceedFur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/buttonfile"
+        android:backgroundTint="#C81515"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Proceed for Payment Options to Complete your Order"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

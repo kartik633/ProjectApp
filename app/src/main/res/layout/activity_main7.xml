@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/myimage5">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/sacramento"
+                android:gravity="center"
+                android:text="Best in the Restaurant"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <com.synnapps.carouselview.CarouselView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="25dp"
+                android:id="@+id/carso"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/sacramento"
+                android:gravity="center"
+                android:text="Coupon Code"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:scaleType="fitXY"
+                android:layout_margin="5dp"
+                android:src="@drawable/post" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonfile"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/abril_fatface"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="See Full Menu"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+</ScrollView>

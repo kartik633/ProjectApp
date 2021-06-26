@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img4"
+    tools:context=".MainActivity6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/rock_salt"
+        android:gravity="center"
+        android:text="Krangarius Restaurant"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etResetEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/actor"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/resetPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonfile"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/abril_fatface"
+        android:padding="10dp"
+        android:text="Reset Password"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:layout_marginLeft="180dp"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/progresspro"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
